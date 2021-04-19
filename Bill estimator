@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>BILL ESTIMATOR</title>
+</head>
+<body>
+<form>
+<center>
+<label>Select cab type</label>
+<select name="cab type">
+<option>MICRO</option>
+<option>MINI</option>
+<option>PRIME</option>
+</select><br><br>
+<label for="number">No.of Kilo meters</label>
+<input type="number" name="number" placeholder="Kilometer" required><br><br>
+<button formaction="BillAmount.html">SUBMIT</button>
+</center>
+</form>
+</body>
+</html>
