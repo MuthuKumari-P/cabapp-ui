@@ -7,14 +7,15 @@
 <body>
 <form>
 <center>
+<h1>Bill Estimator</h1>
 <label>Select cab type</label>
 <select name="cab type">
-<option value="micro">MICRO</option>
-<option value="mini">MINI</option>
-<option value="prime">PRIME</option>
+<option value="micro" id="micro">MICRO</option>
+<option value="mini" id="mini">MINI</option>
+<option value="prime" id="prime">PRIME</option>
 </select><br><br>
 <label for="number">No.of Kilo meters</label>
-<input type="number" name="number" placeholder="Kilometer" required><br><br>
+<input type="number" name="number" placeholder="Kilometer" id="kilometer" required><br><br>
 <button formaction="BillAmount.html">SUBMIT</button>
 </center>
 </form>
